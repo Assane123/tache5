@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+@media screen and (max-width:400px) {
+   a{
+        font-size: 20px;
+    }
+    nav{
+    position: relative;
+    margin-left: 350px;
+    gap: 20px;
+    }
+    .big{
+        width: 750px;
+    }
+    .bigger{
+        width: 800px;
+    }
+    .coach{
+        width: 740px;
+    }
+    .photo{
+        width: 800px;
+    }
+    .grand{
+        width: 750px;
+    }
+    .cr7{
+        width: 790px;
+    }
+    .cr7 .dos{
+        width: 310px;
+     } 
+    .moussa{
+        width: 750px;
+     }
+    footer{   
+        width: 790px;
+     }
+}
+

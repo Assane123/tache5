@@ -1,0 +1,68 @@
+*{
+margin: 0;
+}
+body{
+    background: linear-gradient(90deg, rgb(74, 9, 109), #ba5370)
+}
+.big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 130px;
+}
+h1{
+    color: palevioletred;
+    margin-bottom: 30px;
+    text-align: center;
+}
+form{
+    background-color: rgb(0, 0, 59);
+    color: white;
+    padding: 5px;
+    padding-right: 80px;
+}
+#two{
+    margin-left: 60px;
+}
+.big img{
+    width: 310px;
+    height:448px;
+}
+#dos{
+    width: 200px;
+    margin-left: 100px;
+}
+#zou{
+    width: 200px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+button{
+    padding: 22px;
+    width: 150px;
+    background: linear-gradient(rgb(221, 0, 221) ,rgb(1, 1, 54));
+    margin-left: 60px;
+    color: white;    
+}
+#tt{
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    left: 52.9%;
+    text-align: center;
+    opacity: 0.5;
+    background-color: #dc4973;
+    height: 59.9px;
+    padding-right: 165px;
+    
+}
+/* #tt h6{
+    position: relative;
+    left: 100px;
+} */
+h6{
+    color: #fff;
+}
+@media max-width  {
+    
+}

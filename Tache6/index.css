@@ -1,0 +1,224 @@
+
+*{
+    margin: 0;
+
+}
+header .big{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: #fff;
+    height: 10vh;
+}
+header .big .biiger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+header .big .biiger span{
+    font-weight: bold;
+}
+header .big .biiger i{
+    color: orangered;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 15vh;
+    color: black;
+    gap: 70px;
+    /* margin-right: 360px; */
+    font-weight: bold;
+    font-size: 20px;
+}
+nav .iop{
+     margin-left: 420px; 
+}
+.kalika{
+    background-image: url('images/image1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+/* .kalika .grand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.kalika .grand .klk{
+    width: 10%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+.kalika .grand .klk img{
+    width: 100%;
+    height: 100%;
+}
+#hre{
+    width: 80px;
+    background: orangered;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border: none;
+    margin-left: 30px;
+}
+.kalika .grand .klkl{
+    font-size: 70px;
+    color: #fff;
+    position: relative;
+    top: 210px;
+    text-align: center;
+}
+.kalika .grand .klkl p{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 10px;
+}
+input{
+    position: relative;
+    top: 290px;
+    padding: 20px;
+    background: none;
+    border: 2px solid white;
+    margin-left: 45%;
+    color: #fff;
+    font-weight: bold;
+}
+.kalika .fac{
+    font-weight: bold;
+    font-size: 40px;
+    position: relative;
+    top: 300px;
+    margin-left: 50%;
+    color: #fff;
+}
+
+.intel{
+    background-color: rgb(156, 154, 154);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+}
+.intel .crack{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.crack .inside{
+   background-image: url(images/image6.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 50%;
+   height: 200px;
+   margin-bottom: 170px;
+}
+.crack .inspite{
+   background-image: url(images/image4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 50%;
+   height: 200px;
+   margin-bottom: 170px;
+}
+.crack .inside img{
+    width: 100%;
+    height: 100%;
+}
+.crack .inspite img{
+    width: 100%;
+    height: 100%;
+}
+.crack .inss{
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+#fld{
+    border-color: #fff;
+    border: 3px solid white;
+}
+#flde{
+    border-color: #fff;
+    border: 3px solid white;
+    width: 230px;
+}
+
+
+@media screen and (max-width:400px) {
+    header .big{
+        width: 770px;
+        font-size: 15px;
+        height: 100px;
+    }
+    header nav{
+        /* width: 100px; */
+        height: 200px;
+        font-size: 25px;
+        margin-left: 550px;
+        /* gap: 60px; */
+    }
+    header nav .iop i{
+        display: none;
+    }
+
+    .kalika{
+        height: 930px;
+        width: 770px;
+    }
+    .kalika .grand .klk{
+        margin: auto;
+        width: 150px;
+    }
+    #hre{
+        margin-top: 7px;
+    }
+    .kalika .ins{
+    margin-right:90px;
+    }
+    .kalika .fac{
+        margin-right: 250px;
+    }
+
+    .intel{
+        width: 770px;
+        height: 430px;
+    }
+    .intel .crack .inside{
+       position: relative;
+       top: -80px;
+       /* width: 500px; */
+    }
+
+    .intel .crack .inspite{
+        position: relative;
+        top: -80px;
+        /* width: 500px; */
+     }
+     .intel .crack .inss{
+        font-size: 30px;
+     }
+     #flde{
+        width: 100px;
+     }
+
+}
+
+
+
+
+
+
+
